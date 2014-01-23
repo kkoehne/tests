@@ -19,3 +19,5 @@ CONFIG += c++11
 SOURCES += \
     tst_threadstoragebench.cpp
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
+
+OTHER_FILES += results.txt

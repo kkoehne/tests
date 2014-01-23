@@ -1,0 +1,78 @@
+OpenSUSE 13.1 (3.11.6-4-desktop 64 bit), gcc 4.8.1 qt-dev release build
+
+./tst_threadstoragebenchtest -median 100
+
+********* Start testing of ThreadStorageBenchmark *********
+Config: Using QtTest library 5.3.0, Qt 5.3.0
+PASS   : ThreadStorageBenchmark::initTestCase()
+PASS   : ThreadStorageBenchmark::no_check()
+RESULT : ThreadStorageBenchmark::no_check():
+     0.0000098 msecs per iteration (total: 83, iterations: 8388608)
+PASS   : ThreadStorageBenchmark::thread_local_()
+RESULT : ThreadStorageBenchmark::thread_local_():
+     0.000011 msecs per iteration (total: 99, iterations: 8388608)
+PASS   : ThreadStorageBenchmark::threadStorage()
+RESULT : ThreadStorageBenchmark::threadStorage():
+     0.0010 msecs per iteration (total: 66, iterations: 65536)
+PASS   : ThreadStorageBenchmark::cleanupTestCase()
+Totals: 5 passed, 0 failed, 0 skipped
+********* Finished testing of ThreadStorageBenchmark *********
+
+Windows 7 64 bit, gcc 4.8.2, qt-dev release build
+
+tst_threadstoragebenchtest.exe -median 100
+********* Start testing of ThreadStorageBenchmark *********
+Config: Using QtTest library 5.2.1, Qt 5.2.1
+PASS   : ThreadStorageBenchmark::initTestCase()
+PASS   : ThreadStorageBenchmark::no_check()
+RESULT : ThreadStorageBenchmark::no_check():
+     0.0000030 msecs per iteration (total: 51, iterations: 16777216)
+PASS   : ThreadStorageBenchmark::thread_local_()
+RESULT : ThreadStorageBenchmark::thread_local_():
+     0.000046 msecs per iteration (total: 98, iterations: 2097152)
+PASS   : ThreadStorageBenchmark::threadStorage()
+RESULT : ThreadStorageBenchmark::threadStorage():
+     0.00021 msecs per iteration (total: 56, iterations: 262144)
+PASS   : ThreadStorageBenchmark::cleanupTestCase()
+Totals: 5 passed, 0 failed, 0 skipped
+********* Finished testing of ThreadStorageBenchmark *********
+
+
+Windows 7 64 bit, msvc 2012 32 bit, qt dev release build
+
+tst_threadstoragebenchtest.exe -median 100
+********* Start testing of ThreadStorageBenchmark *********
+Config: Using QtTest library 5.2.1, Qt 5.2.1
+PASS   : ThreadStorageBenchmark::initTestCase()
+PASS   : ThreadStorageBenchmark::no_check()
+RESULT : ThreadStorageBenchmark::no_check():
+     0.0000034 msecs per iteration (total: 58, iterations: 16777216)
+PASS   : ThreadStorageBenchmark::thread_local_()
+RESULT : ThreadStorageBenchmark::thread_local_():
+     0.0000036 msecs per iteration (total: 61, iterations: 16777216)
+PASS   : ThreadStorageBenchmark::threadStorage()
+RESULT : ThreadStorageBenchmark::threadStorage():
+     0.00024 msecs per iteration (total: 64, iterations: 262144)
+PASS   : ThreadStorageBenchmark::cleanupTestCase()
+Totals: 5 passed, 0 failed, 0 skipped
+********* Finished testing of ThreadStorageBenchmark *********
+
+
+Mac OS X 10.8.5, Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn), qt-rls release build
+
+./tst_threadstoragebenchtest -median 100
+********* Start testing of ThreadStorageBenchmark *********
+Config: Using QtTest library 5.3.0, Qt 5.3.0
+PASS   : ThreadStorageBenchmark::initTestCase()
+PASS   : ThreadStorageBenchmark::no_check()
+RESULT : ThreadStorageBenchmark::no_check():
+     0.0000070 msecs per iteration (total: 59, iterations: 8388608)
+PASS   : ThreadStorageBenchmark::thread_local_()
+RESULT : ThreadStorageBenchmark::thread_local_():
+     0.000011 msecs per iteration (total: 96, iterations: 8388608)
+PASS   : ThreadStorageBenchmark::threadStorage()
+RESULT : ThreadStorageBenchmark::threadStorage():
+     0.00051 msecs per iteration (total: 68, iterations: 131072)
+PASS   : ThreadStorageBenchmark::cleanupTestCase()
+Totals: 5 passed, 0 failed, 0 skipped
+********* Finished testing of ThreadStorageBenchmark *********
